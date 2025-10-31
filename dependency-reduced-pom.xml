@@ -84,12 +84,13 @@
       <artifactId>LemonMobCoins</artifactId>
       <version>master-SNAPSHOT</version>
       <scope>system</scope>
-      <systemPath>C:\Users\11877\Documents\GitHub\MoneyPouch\lib\lemonmobcoins-1.4.jar</systemPath>
+      <systemPath>${LemonMobCoins-systemPath}</systemPath>
     </dependency>
   </dependencies>
   <properties>
     <maven.compiler.target>21</maven.compiler.target>
     <maven.compiler.source>21</maven.compiler.source>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <LemonMobCoins-systemPath>C:\Users\11877\Documents\GitHub\MoneyPouch\lib\lemonmobcoins-1.4.jar</LemonMobCoins-systemPath>
   </properties>
 </project>
